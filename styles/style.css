@@ -23,33 +23,44 @@ header {
 main {
     color: whitesmoke;
     margin: auto;
+
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .logo img {
-    width: 100px;
+    width: 15rem;
 }
 
 .social {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-top: 1rem;
 }
 
+.social a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.social a:last-child {
+    margin-right: 0;
+}
+
+i {
+    font-size: 2rem;
+}
 .social-card {
     border: 2px solid white;
     padding: 1rem;
     border-radius: 50%;
     display: flex;
     justify-content: space-between;
-    margin-left: 1rem;
 }
 
-.social a {
-    text-decoration: none;
-}
+
 
 .text {
     display: flex;
@@ -63,9 +74,7 @@ h1 {
     text-align: center;
 }
 
-i {
-    font-size: 4rem;
-}
+
 
 sub {
     font-weight: 200;
@@ -119,8 +128,17 @@ footer a, a:visited, a:active {
         margin: 1rem 0 0 0;
     }
 
+    .logo {
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .logo img{
         width: 15rem;
+        margin: auto;
     }
 
     sub {
