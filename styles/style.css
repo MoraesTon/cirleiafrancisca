@@ -34,9 +34,8 @@ main {
 
 .social {
     display: flex;
-    max-width: 300px;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .social-card {
@@ -64,9 +63,103 @@ h1 {
     text-align: center;
 }
 
+i {
+    font-size: 4rem;
+}
+
 sub {
     font-weight: 200;
     font-size: 1rem;
     margin-top: 2rem;
+}
+
+footer {
+    width: 100vw;
+    height: 8rem;
+
+    background-color:#596E6E;
+    color: white;
+    font-weight: 200;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem;
+}
+
+footer a, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.bplus-icon {
+    display: flex;
+    align-items: center;
+}
+
+.bplus-icon img {
+    height: 6rem;
+
+}
+
+@media (max-width: 500px) {
+    body {
+        width: 100vw;
+        justify-content: space-between;
+    }
+    main {
+        width: 100vw;
+        margin: 0;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 0 0;
+    }
+
+    .logo img{
+        width: 15rem;
+    }
+
+    sub {
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .social {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .social-card {
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .social-card i {
+        font-size: 3rem;
+    }
+
+    footer {
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    footer img {
+        margin-right: 1rem;
+    }
 }
 
