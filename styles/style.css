@@ -48,6 +48,10 @@ main {
     margin-left: 1rem;
 }
 
+.social a {
+    text-decoration: none;
+}
+
 .text {
     display: flex;
     flex-direction: column;
