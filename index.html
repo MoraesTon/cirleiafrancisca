@@ -13,61 +13,83 @@
 <body>
     <div class="container-fluid">
         <header>
-            <img src="images/bannerLarge.svg" alt="Banner large" id="desktop" class="hide">
-            <img src="images/bannerMobile.svg" alt="Cirleia Francisca PMU" id="mobile" class="hide">
+            <img src="images/bannerLargeGold.svg" alt="Banner large" id="desktop" class="hide">
+            <img src="images/bannerMobileGold.svg" alt="Cirleia Francisca PMU" id="mobile" class="hide">
 
         </header>
+        <!-- Navbar begining -->
+        <nav class="navbar fixed-top navbar-collapse navbar-toggler">
+          <div class="container-fluid">
+            <!-- <a href="#" class="navbar-brand">Menu</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHide" aria-expanded="false" aria-label="Too">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarHide">
+              <div class="navbar-nav">
+                <a href="#" class="nav-link active" aria-current="page">Home</a>
+                <a href="#" class="nav-link">Link 2</a>
+                <a href="#" class="nav-link">Link 3</a>
+                <a href="#" class="nav-link disable" aria-disabled="true">Disabled</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar ending -->
         
         <!-- Inicio do slider -->
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="5000">
-
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
-                
-                <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">Second slide</text></svg>
-                <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">Third slide</text></svg>
-                <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      
+        <div class="carousel"></div>    
         <!-- Fim do slider -->
+
+        <!-- Begining comments section -->
+        <div class="comments"></div>
+        <!-- Ending comments section -->
+
+        <div class="courses"></div>
+
+        <!-- Location begining -->
+        <div class="location">
+          <div class="location-header">
+            <h2>Localização</h2>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d748.1398068873106!2d-8.519189700000014!3d41.405377699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2459777c6132e5%3A0x8d1cf8d0e361de8c!2sCirleia%20Francisca%20Espa%C3%A7o%20de%20Beleza!5e0!3m2!1spt-BR!2spt!4v1706003869545!5m2!1spt-BR!2spt" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- Location ending -->
+
+
+        </div>
+
+        <footer>          
+          <div class="legal">
+            <div class="logo">
+              <img src="images/logoWhite.svg" alt="">
+            </div>
+            <div class="address">
+              <h5>Cirleia Francisca Espaço de Beleza</h5>
+            <i></i><p>Praça Dona Maria II, 1464 - 2 Frente E</p>
+            <p>Vila Nova de Famalicão</p>
+            </div>
+            
+          </div>
+          <div class="infos">
+            <p>Todos os direitos Reservados &REG;</p>
+            <p><a href="https://www.livroreclamacoes.pt/Inicio/">Livro de reclamações</a></p>
+            <p>Política de privacidade</p>
+          </div>
+          
+        </footer>
+        <div class="design">
+          <p> <a href="http://beplusdigital.com"> Site desenvolvido por Be Plus Digital</a></p>
+        </div>
+
+
     </div>
     
     
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/carouselModule.js"></script>
+    <script src="js/commentsModule.js"></script>
+    <script src="js/coursesModule.js"></script>
 </body>
 </html>
