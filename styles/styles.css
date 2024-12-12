@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: #07262B;
+    --secondary: #C8A353;
+    --tertiary: #D7C9C2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.spacer {
+    height: 2rem;
+    width: 100%;
+    background: var(--secondary);
+    position: relative;
+}
+
+header {
+    background: var(--primary);
+    padding: .5rem 2rem;
+}
+
+header img {
+    width: 33%;
+    height: auto;
+}
+
+.hero {
+    background: var(--tertiary);
+    display: flex;
+    justify-content: space-between;
+    
+    height: 80vh;
+
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+    line-height: 100%;
+
+    margin: 1rem 0;
+}
+
+.hero .hero-text .hero-subtext {
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--primary);
+
+    margin-bottom: 2rem;
+}
+
+.hero .hero-btn {
+    background: var(--primary);
+    color: white;
+
+    border-radius: 45px;
+    height: 2.5rem;
+    width: 10rem;
+
+    font-weight: 300;
+    font-size: 1.2rem;
+    border: none;
+    
+    cursor: pointer;
+}
+
+.hero img {
+    height: 80vh;
+}
+
+/* SUBTEXT SECTION */
+
+.sub-text {
+    background: var(--secondary);
+    padding: 2rem 0;
+}
+
+.sub-text .sub-text-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    
+    width: 40rem;
+    margin: auto;
+}
+
+.sub-text p {
+    width: 40rem;
+    text-align: center;
+    margin: auto;
+    color: white;
+    
+    font-weight: 200;
+    margin-top: 2rem;
+}
+
+/* SERVICES SECTION */
+
+.services {
+    width: 100%;
+    background: var(--tertiary);
+    padding: 2rem;
+}
+
+.sub-header {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+
+    font-weight: 500;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.services-content .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.services-card {
+    width: 20vw;
+}
+
+.services-card img {
+    width: 20vw;
+}
+
+.services-card-text {
+    height: 6.5rem;
+    background: var(--primary);
+    padding: .5rem;
+
+    color: white;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+/* COURSES SECTION */
+
+.courses {
+    background: var(--primary);
+    padding: 2rem;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.courses .courses-content {
+    display: flex;
+}
+
+.courses .sub-header {
+    color: white;
+    text-align: center;
+}
+
+.courses .sub-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.courses .courses-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .courses-content .courses-btn {
+    width: 20rem;
+    height: 3rem;
+    background: white;
+
+    color: var(--primary);
+    font-size: 1.2rem;
+
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.courses .courses-hero-img img {
+    width: 100%;
+    height: 60vh;
+}
+
+/* FEEDBACKS SECTION */
+
+.feedbacks {
+    background: var(--tertiary);
+    padding: 2rem;
+}
+
+.feedbacks-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.feedbacks-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+
+    background: var(--primary);
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.feedbacks-card-img {
+    width: 100px;
+}
+
+.feedbacks-card-img img {
+    width: 100%;
+}
+
+.feedbacks-card-stars {
+    text-align: center;
+    color: white;
+}
+
+.feedbacks-card-text {
+    width: 100%;
+    font-size: .9rem;
+    font-weight: 300;
+    text-align: justify;
+    color: white;
+}
+
+/* PRIZES SECTION */
+
+.prizes {
+    width: 100%;
+    height: 150px;
+
+    background: var(--primary);
+}
+
+
+/* CONTACTS SECTION */
+
+.contacts {
+    width: 100%;
+    padding: 2rem;
+    background: var(--tertiary);
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+}
+.contatcts-left-bar {
+    color: var(--primary);
+}
+
+.contacts a, .contacts a:visited {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+/* PREFOTER SECTION */
+
+.prefooter {
+    display: flex;
+    justify-content: space-between;
+
+    background: var(--tertiary);
+    color: var(--primary);
+    font-weight: 300;
+
+    padding: 1rem;
+}
+
+.prefooter a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.prefooter a:visited {
+    color: var(--primary);
+}
+
+/* FOOTER SECTION */
+
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    background: var(--primary);
+    
+    color: white;
+    font-weight: 300;
+}
+
+footer img {
+    height: 50px;
+}
+
+/* RESPONSIVE SECTION */
+
+@media only screen and (max-width: 800px) {
+    .container, body, html {
+        width: 100%;
+    }
+    header {
+        padding: .5rem;
+    }
+    
+    header img {
+        width: 50%;
+    }
+
+    .hero {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem;
+
+        position: relative;
+    }
+
+    .hero .hero-text-h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero .hero-text .hero-subtext {
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+    .hero-img img {
+        width: 100%;
+        height: auto;
+
+        margin-bottom: -1rem;
+    }
+
+    .hero .hero-btn {
+        width: 100%;
+        height: 2.5rem;
+        font-size: 1.2rem;
+
+        margin: 1rem 0;
+    }
+
+    /* SUBTEXT SECTION */
+
+    .sub-text {
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .sub-text .sub-text-header {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .sub-text p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    /* SERVICES SECTION */
+
+    .services {
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .services .services-content .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
+
+    .services-content .row .services-card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .services-content .row .services-card .services-card-img {
+        width: 100%;
+    }
+
+    .services-content .row .services-card .services-card-img img {
+        width: 100%;
+    }
+
+    .services-content .row .services-card .services-card-text {
+        font-size: 1.2rem;
+        height: 7.2rem;
+    }
+
+    /* COURSES SECTION */
+
+    .courses {
+        width: 100%;
+        padding: .5rem;
+        height: auto;
+
+        overflow: hidden;
+
+        position: relative;
+    }
+
+    .courses .courses-buttons {
+        z-index: 999;
+    }
+
+    .courses .courses-hero-img {
+        z-index: 997;
+
+        position: absolute;
+        right: -6rem;
+    }
+
+    .courses .courses-hero-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* FEEDBACKS SECTION */
+
+    .feedbacks {
+        width: 100%;
+        padding: .5rem;
+
+        overflow: hidden;
+    }
+
+    .feedbacks .feedbacks-content {
+        display: flex;
+
+        gap: .5rem;
+        width: 100%;
+    }
+
+    .feedbacks .feedbacks-content .feedbacks-card {
+        width: 100%;
+    }
+
+    /* CONTACTS SECTION */
+
+    .contacts {
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .contacts .contacts-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* PREFOOTER SECTION */
+
+    .prefooter {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* FOOTER SECTION */
+
+    footer {
+        padding: 2rem;
+        width: 100%;
+        height: 4rem;
+        display: flex;       
+        justify-content: space-between;
+
+        gap: 1rem;
+    }
+
+    footer img {
+        width: auto;
+        height: 3rem;
+    }
+}
