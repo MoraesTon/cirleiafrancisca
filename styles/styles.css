@@ -364,7 +364,7 @@ footer img {
         height: auto;
         display: flex;
         justify-content: space-between;
-        padding: .5rem;
+        padding: 0 .5rem;
 
         position: relative;
     }
@@ -382,11 +382,15 @@ footer img {
         margin: 1rem 0;
     }
 
+    .hero .hero-img {
+        position: relative;
+
+        display: flex;
+    }
+
     .hero-img img {
         width: 100%;
         height: auto;
-
-        margin-bottom: -1rem;
     }
 
     .hero .hero-btn {
