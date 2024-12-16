@@ -184,6 +184,7 @@ header img {
 .courses .sub-header {
     color: white;
     text-align: center;
+    z-index: 999;
 }
 
 .courses .sub-title {
